@@ -1,15 +1,3 @@
-Bài 1: 
-Lệnh touch dùng để tạo file
-Lệnh cat có 3 công dụng: dùng để xem 1 file, nhiều file, nối 2 file
-Lệnh more xem nội dung file theo từng trang
-Lệnh less xem nội dung file theo từng trang ko lưu trên terminal
-Bài 2:
-lệnh wc -w Hiển thị số lượng từ trong một file text
-lệnh wc -l Hiển thị số lượng dòng trong một file text.
-lệnh wc -c Hiển thị số lượng ký tự trong một file text.
-lệnh ls -S /usr/bin Hiển thị danh sách các file trong thư mục /usr/bin và sắp xếp kết quả trả lại theo thứ tự tăng dần
-lệnh ls -r -S /usr/bin Hiển thị danh sách các file trong thư mục /usr/bin và sắp xếp kết quả trả lại theo thứ tự giảm dần
-
 Bài 3:
 cd /etc/passwd /mydir/mypasswords.txt
 head -3 /mydir/mypasswords.txt
@@ -50,5 +38,3 @@ mkdir class1 class2 class3 class4 class5 class6
 
 
 
-
-	
