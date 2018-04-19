@@ -31,29 +31,26 @@ class Khoa:
 		self.TenKhoa = tenk
 	def ink(self):
 		print "Ma Khoa: ",self.MaKhoa, ",Ten khoa: ",self.TenKhoa
-sv1 = SV()
-sv2 = SV()
-sv3 = SV()
-k1 = Khoa()
-k2 = Khoa()
-sv1.setMSSV("001")
-sv1.setHoTen("Mai A")
-sv1.setMaKhoa("01")
-sv2.setMSSV("002")
-sv2.setHoTen("Van C")
-sv2.setMaKhoa("02")
-sv3.setMSSV("003")
-sv3.setHoTen("Thi K")
-sv3.setMaKhoa("01")
-sv1.ina()
-sv2.ina()
-sv3.ina()
-k1.setMKhoa("01")
-k1.setTKhoa("CNTT")
-k2.setMKhoa("02")
-k2.setTKhoa("Toan")
-k1.ink()
-k2.ink()
+l=[]
+l.append(SV("001","mai a ","57"))
+l.append(SV("002","tran b","58"))
+l.append(SV("003","le c  ","57"))
+l.append(SV("004","pham q","58"))
+l.append(SV("005","ngo m ","59"))
+for i in l:
+    i.ina()
+print()
+g=[]
+g.append(Khoa("56","khoa 56 cntt"))
+g.append(Khoa("57","khoa 57 cntt"))
+g.append(Khoa("58","khoa 58 cntt"))              
+g.append(Khoa("59","khoa 59 cntt"))
+for i in g:
+    i.ink()        
+print()
+for i in l:
+    if (str(i.getMaKhoa())=="57"):
+        i.xuat()
 
 
 
